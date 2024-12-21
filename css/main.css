@@ -1094,14 +1094,12 @@ header .row {
 	min-height: 66px;
 }
 header .top-bar {
-	display: block;
-	background: #000000;
-	opacity: 90%;
-	min-width: 220px;
-	min-height: 66px;
-	position: absolute;
-	left: 90px;
-	top: 0;
+    display: block;
+    opacity: 90%;
+    min-height: 66px;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 header .logo {
 	float: left;
@@ -1295,7 +1293,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat fill center bottom;
+	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
