@@ -1,10 +1,5 @@
 /**
  * =================================================================== 
- *
- *  Kards v1.0 Base Stylesheet
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
  *  TOC:
  *  01. reset
  *  02. basic/base setup styles
@@ -419,7 +414,7 @@ textarea {
 	float: left;
 }
 
-[class*="col-"] + [class*="col-"].end {
+[class*="col-"]+[class*="col-"].end {
 	float: right;
 }
 
@@ -605,7 +600,7 @@ textarea {
 		padding: 0;
 	}
 
-	[class*="col-"] + [class*="col-"].end {
+	[class*="col-"]+[class*="col-"].end {
 		float: none;
 	}
 
